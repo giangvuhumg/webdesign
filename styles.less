@@ -1,0 +1,95 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+
+    .logo>img{
+        width: 100%;
+        height: 100%;
+    }
+    ul{
+        display: flex;
+
+        li{
+            list-style: none;
+
+            a{
+                display: inline-block;
+                line-height: 110px;
+                padding: 0px 20px;
+                color: #222;
+                font-size: 16px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #1db4c1;
+                text-decoration: none;
+            }
+        }
+    }
+}
+#banner{
+    background: url(https://livewp.site/wp/md/optima/wp-content/uploads/sites/15/2018/01/home_bg1-1.jpg?id=44);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 80vh;
+
+    .text__banner{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+
+        h2{
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            font-style: normal;
+            line-height: 172%;
+        }
+        strong {
+            color: white;
+            font-size: 68px;
+            line-height: 117%;
+        }
+        p{
+            color: white;
+            font-size: 60px;
+        }
+        .btn{
+            width: 150px;
+            padding: 15px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            outline: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .btn-about{
+            background: #20c0c9;
+            color: white;
+            margin:20px 20px 0px 0px;
+        }
+        .btn-book{
+            color: black;
+        }
+        .btn-about:hover{
+            background: #3d3272;
+        }
+        .btn-book:hover{
+            background: #3d3272;
+            color: #fff;
+        }
+    }
+}
+
